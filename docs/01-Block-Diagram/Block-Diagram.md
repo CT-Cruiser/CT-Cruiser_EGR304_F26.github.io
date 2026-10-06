@@ -12,5 +12,5 @@ The following block diagram describes the flow sensing subsystem I was responsib
 
 
 
-## Example Block Diagram 
+## Flow-Sensing Module Block Diagram 
 ![Cole's Current Block Diagram](blockdiagram.drawio.png)
