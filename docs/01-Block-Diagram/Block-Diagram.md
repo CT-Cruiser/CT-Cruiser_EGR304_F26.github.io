@@ -6,19 +6,11 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
+The following block diagram describes the flow sensing subsystem I was responsible for. The board's purpose is to provide a status of whether or not water is flowing through the system. This device runs solely from +5v dc with two options for power: barrel jack or +5v from main voltage bus. This board makes use of a hall effect sensor that triggers the gate of a mosfet. The drain is then connected to a CCP pin of the PIC18. My board is a "slave" board that communicates with the "master" board.
 
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+
+
 
 
 ## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
-
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![Cole's Current Block Diagram](blockdiagram.drawio.png)
