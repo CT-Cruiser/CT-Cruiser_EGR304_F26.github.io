@@ -795,9 +795,9 @@
 </tbody>
 </table>
 <p><strong>Choice:</strong> Option 3: SEN0216 Liquid Flow Sensor</p>
-<p><strong>Rationale:</strong> This device uses a small ID tube which is better since we want to precisely control the amount we want to dispense. </p>
-<p><em>Table 2: Flow Sensor component selection</em></p>
-<p><strong>External Clock Module</strong></p>
+<p><strong>Rationale:</strong> This device uses a small ID tube which is better since we want to precisely control the amount we want to dispense. The amount of flow it is rated for should also be suitable. </p>
+<p><em>Table 2: Flow Sensor Switching Mosfet component selection</em></p>
+<p><strong>Switching Mosfet</strong></p>
 <table>
 <thead>
 <tr>
@@ -808,19 +808,24 @@
 </thead>
 <tbody>
 <tr>
-<td><br>Option 1.<br> 314150005 Flow Sensor <br>$9.50/each<br><a href="https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/314150005/5488047">link to product</a></td>
-<td>* Inexpensive<br>* Accepts 5 Volts <br>* Rated flow rate is desirable</td>
-<td>* Requires MOSFET to interact with PIC <br>* Connectors require 1/2 inch piping</td>
+<td><br>Option 1.<br> Toshiba SSM3J36FS P-Channel Mosfet <br>$0.27/each<br><a href="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3J36FS-LF/2071880">link to product</a></td>
+<td>* Voltage is desirable</td>
+<td>* Requires a negative supply voltage</td>
 </tr>
 <tr>
-<td><br>* Option 2. <br>* SLF3S-4000B Liquid Flow Sensor <br>* $191.87/each <br>* <a href="https://www.digikey.com/en/products/detail/sensirion-ag/SLF3S-4000B-LIQUID-FLOW-SENSOR/16579752">Link to product</a></td>
-<td>* Extremely Accurate <br>* Communicates with I2C <br> * Uses 6mm ID tubing</td>
-<td>* Very expensive <br>* flow rate might be too slow</td>
+<td><br>* Option 2. <br>* Nexperia 2N7002NXAKR N-Channel Mosfet <br>* $0.14/each <br>* <a href="https://www.digikey.com/en/products/detail/nexperia-usa-inc/2N7002NXAKR/10416554">Link to product</a></td>
+<td>* N-Channel mosfet <br>* Inexpensive <br></td>
+<td>* Heat sensitive</td>
+</tr>
+<tr>
+<td><br>* Option 3. Toshiba T2N7002AK N-Channel Mosfet <br>*  <br>* $0.17/each <br>* <a href="https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/T2N7002AK-LM/5298028">Link to product</a></td>
+<td>* Reputable manufacturer <br>* Tried and true design</td>
+<td>* More expensive</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Option 2: CTX936TR-ND surface mount oscillator</p>
-<p><strong>Rationale:</strong> A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.</p>
+<p><strong>Choice:</strong> Option 2: Nexperia 2N7002NXAKR N-Channel Mosfet</p>
+<p><strong>Rationale:</strong> This mosfet is best since it works within the limits of my proposed design as well as the price. </p>
 
 
 
