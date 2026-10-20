@@ -1,21 +1,18 @@
 ---
-title: Component Selection Example
+title: Component Selection
 ---
 
-## Examples
 
-### Style 1
+Here is informaiton regarding the rationale for selecting the components that will be put in my subsystem board. 
 
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
+*Table 1: Flow Sensor component selection*
 
 **External Clock Module**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| ![](MFG_314150005_sml.jpg)<br>Option 1.<br> 314150005 Flow Sensor <br>$1/each<br>[link to product](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/314150005/5488047)                 | \* Inexpensive<br>\* Accepts 5 Volts <br>\* Rated flow rate is desirable                                               | \* Requires MOSFET to interact with PIC <br>\* Connectors require 1/2 inch piping |
+| ![](MFG_SLF3S-4000B-LIQUID-FLOW-SENSOR_sml.jpg)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
 
 **Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
