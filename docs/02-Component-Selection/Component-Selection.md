@@ -5,9 +5,9 @@ title: Component Selection
 
 Here is informaiton regarding the rationale for selecting the components that will be put in my subsystem board. 
 
-*Table 1: Flow Sensor component selection*
+*Table 1: Flow Sensing Resistor*
 
-**Flow Sensor**
+**Photoresistor**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -21,20 +21,20 @@ Here is informaiton regarding the rationale for selecting the components that wi
 
  
 
- *Table 2: Flow Sensor Switching Mosfet component selection*
+ *Table 2: DC Linear Regulator Component Selection*
 
-**Switching Mosfet**
+**DC Linear Regulator**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](1727~SOT23-3~~3_sml(200x200).webp)<br>Option 1.<br> Toshiba SSM3J36FS P-Channel Mosfet <br>$0.27/each<br>[link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/SSM3J36FS-LF/2071880)                 | \* Voltage is desirable                                               | \* Requires a negative supply voltage |
-| ![](264~2-2H1B~~3_sml(200x200).webp)<br>\* Option 2. <br>\* Nexperia 2N7002NXAKR N-Channel Mosfet <br>\* $0.14/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/nexperia-usa-inc/2N7002NXAKR/10416554) | \* N-Channel mosfet <br>\* Inexpensive <br> | \* Heat sensitive                     |
-| ![](1727~SOT23-3~~3_sml(200x200).webp)<br>\* Option 3. Toshiba T2N7002AK N-Channel Mosfet <br>\*  <br>\* $0.17/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/T2N7002AK-LM/5298028) | \* Reputable manufacturer <br>\* Tried and true design  | \* More expensive                                                      |
+| ![](786138.jpg)<br>Option 1.<br> Toshiba SSM3J36FS P-Channel Mosfet <br>$2.25/each<br>[link to product](https://www.jameco.com/z/LM7805CT-National-Semiconductor-IC-LM7805CT-5V-1A-Positive-Voltage-Regulator-40C-125C-Temp-_786138.html)                 | \* Voltage is desirable                                               | \* Not as effecient |
+| ![](docs/02-Component-Selection/786138.jpg)<br>\* Option 2. <br>\* LM7905 Linear Regulator <br>\* $1.72/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM7905CT-NOPB/6349) | \* 5v regulator <br>\* No external components to set voltage <br> | \* Negative output                    |
+| ![](488~369C-01~D,DT~2_sml(200x200).webp)<br>\* Option 3. MC78M05BDTRKG Linear Regulator<br>\*  <br>\* $0.47/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/T2N7002AK-LM/5298028) | \* Least Expensive <br>\* Output voltage is fixed  | \* Surface Mount Design                                                      |
 
 
-**Choice:** Option 2: Nexperia 2N7002NXAKR N-Channel Mosfet
+**Choice:** Option 1: LM7805 Linear Regulator
 
-**Rationale:** This mosfet is best since it works within the limits of my proposed design as well as the price. 
+**Rationale:** This liner regulator is a through-hole design and doesn't need external circuitry (except conditioning capicitors) to output 5v DC. 
 
 ## Power Budget 
 
