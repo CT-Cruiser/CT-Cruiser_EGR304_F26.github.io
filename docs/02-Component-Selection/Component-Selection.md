@@ -11,13 +11,13 @@ Here is informaiton regarding the rationale for selecting the components that wi
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](MFG_314150005_sml.jpg)<br>Option 1.<br> 314150005 Flow Sensor <br>$9.50/each<br>[link to product](https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/314150005/5488047)                 | \* Inexpensive<br>\* Accepts 5 Volts <br>\* Rated flow rate is desirable                                               | \* Requires MOSFET to interact with PIC <br>\* Connectors require 1/2 inch piping |
-| ![](MFG_SLF3S-4000B-LIQUID-FLOW-SENSOR_sml.jpg)<br>\* Option 2. <br>\* SLF3S-4000B Liquid Flow Sensor <br>\* $191.87/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/sensirion-ag/SLF3S-4000B-LIQUID-FLOW-SENSOR/16579752) | \* Extremely Accurate <br>\* Communicates with I2C  | \* Very expensive <br>\* Flow might be too small                                                        |
-| ![](SEN0216_sml(200x200).jpg)<br>\* Option 2. <br>\* SEN0216 Liquid Flow Sensor <br>\* $8.90/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/dfrobot/SEN0216/6579445) | \* Rated flow rate is desirable <br>\* Uses small 6mm ID piping  | \* Might not be as accurate                                                       |
+| ![](MFG_PDV-P8103_sml(200x200).webp)<br>Option 1.<br> PDV-P8103 Photoresistor <br>$0.77/each<br>[link to product](https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P8103/480610)                 | \* Inexpensive<br>\* Accepts 5 Volts <br>\* Rated resistance rate is desirable                                               | \* Might Have trouble getting to work with resistive amp  |
+| ![](NORPS-12_sml.jpg)<br>\* Option 2. <br>\* NORPS-12 Photoresistor <br>\* $2.46/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/advanced-photonix/NORPS-12/5039796) | \* Reliable <br>\* Two-leaded package  | \* More expensive                                                        |
+| ![](TO-18-Photocell_sml.jpg)<br>\* Option 3. <br>\* NSL-5110 Photoresistor <br>\* $3.19/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/advanced-photonix/NSL-5110/5039795) | \* Resistance Values are desriable <br>\* Wide operating temperature  | \* Most Expensive                                                       |
 
-**Choice:** Option 3: SEN0216 Liquid Flow Sensor
+**Choice:** Option 1: PDV-P8103 Photoresistor
 
-**Rationale:** This device uses a small ID tube which is better since we want to precisely control the amount we want to dispense. The amount of flow it is rated for should also be suitable. 
+**Rationale:** This photo sensor has desirable resistance values for the application. It is also the least expensive option on digikey, since cost is a concern for this project.  
 
  
 
@@ -35,3 +35,6 @@ Here is informaiton regarding the rationale for selecting the components that wi
 **Choice:** Option 2: Nexperia 2N7002NXAKR N-Channel Mosfet
 
 **Rationale:** This mosfet is best since it works within the limits of my proposed design as well as the price. 
+
+## Power Budget 
+
