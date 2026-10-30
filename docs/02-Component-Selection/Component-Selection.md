@@ -51,5 +51,23 @@ Here is informaiton regarding the rationale for selecting the components that wi
 **Choice:** Option 2: MCP 6004 Op Amp
 
 **Rationale:** This Op Amp chip comes with our kit, and is more than adequate for the application. 
+
+
+*Table 4: 9v Wall Adapter*
+
+**Wall Adapter**
+
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](wallplug.webp)<br>Option 1.<br> KTPS05-09006U-VI-P1 <br>$8.14/each<br>[link to product](https://www.digikey.com/en/products/detail/volgen-furuno/KTPS05-09006U-VI-P1/5820219)                 | \* 9v DC out                                               | \* Low current rating  |
+| ![](wallplug.webp)<br>\* Option 2. <br>\* 16-00134 <br>\* $10.53/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/tensility/16-00134/10324425) | \*Much higher current rating <br>\* Inexpensive <br> | \* A little heavy                    |
+| ![](MultiWallplug.webp)<br>\* Option 3. <br>\* KTPS24-09025MP-VI-P1  <br>\* $18.96/each <br>\* [Link to product](www.digikey.com/en/products/filter/ac-dc-desktop-wall-power-adapters/130?s=N4IgjCBcoCwBxVAYygMwIYBsDOBTANCAPZQDaIAzAAwCsMA7AgLqEAOALlCAMrsBOASwB2AcxABfQmABM9RCBSQMOAsTIgAbPXjM2nSD37Cx4ySGnr0SAAQATGwHcsma%2BlvoOuPiBYga81igwNkDIaRpTIAu) | \* Multiple Voltages Supported <br>\* Comes with plugs from around the world  | \* Most expensive                                                      |
+
+
+**Choice:** Option 2: 16-00134 Wall Plug
+
+**Rationale:** This Wall adapter has the right current and voltage ratings I'm seeking without breaking the bank. 
+
+
 ## Power Budget 
 
