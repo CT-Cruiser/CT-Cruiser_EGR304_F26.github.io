@@ -28,7 +28,7 @@ Here is informaiton regarding the rationale for selecting the components that wi
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | ![](786138.jpg)<br>Option 1.<br> LM7805 <br>$2.25/each<br>[link to product](https://www.jameco.com/z/LM7805CT-National-Semiconductor-IC-LM7805CT-5V-1A-Positive-Voltage-Regulator-40C-125C-Temp-_786138.html)                 | \* Voltage is desirable                                               | \* Not as effecient |
-| ![](S786138.jpg)<br>\* Option 2. <br>\* LM7905 Linear Regulator <br>\* $1.72/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM7905CT-NOPB/6349) | \* 5v regulator <br>\* No external components to set voltage <br> | \* Negative output                    |
+| ![](786138.jpg)<br>\* Option 2. <br>\* LM7905 Linear Regulator <br>\* $1.72/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM7905CT-NOPB/6349) | \* 5v regulator <br>\* No external components to set voltage <br> | \* Negative output                    |
 | ![](488~369C-01~D,DT~2_sml(200x200).webp)<br>\* Option 3. <br>\* MC78M05BDTRKG Linear Regulator <br>\* $0.47/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/onsemi/MC78M05BDTRKG/919369) | \* Least Expensive <br>\* Output voltage is fixed  | \* Surface Mount Design                                                      |
 
 
@@ -69,5 +69,5 @@ Here is informaiton regarding the rationale for selecting the components that wi
 **Rationale:** This Wall adapter has the right current and voltage ratings I'm seeking without breaking the bank. 
 
 
-## Power Budget 
+
 
