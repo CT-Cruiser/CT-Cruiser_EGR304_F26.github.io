@@ -34,7 +34,7 @@ Here is informaiton regarding the rationale for selecting the components that wi
 
 **Choice:** Option 1: LM7805 Linear Regulator
 
-**Rationale:** This liner regulator is a through-hole design and doesn't need external circuitry (except conditioning capicitors) to output 5v DC. 
+**Rationale:** This linear regulator is a through-hole design and doesn't need external circuitry (except conditioning capicitors) to output 5v DC. 
 
 
 *Table 3: Op Amp*
