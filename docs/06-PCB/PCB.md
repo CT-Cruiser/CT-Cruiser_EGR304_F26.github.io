@@ -17,4 +17,4 @@ Title: PCB
 
 ## Resources
 
-A zip file of the current project containing the necessary KiCad Files can be downloaded [here](Flow_Sense_Board_Manufacture_Final.zip)
+A zip file of the current project containing the necessary Gerber Files can be downloaded [here](Flow_Sense_Board_Manufacture_Final.zip). The KiCad Files can be found [here](FLOW_SENSE_BOARD_11_8.zip)
